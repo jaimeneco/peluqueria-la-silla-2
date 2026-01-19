@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
 
 // importe de páginas
-import Home from "@/pages/Home";
+import Home from "@/pages/Home/Home";
 import ErrorPage from "@/pages/ErrorPage";
 import Reservas from "../../pages/Reservas";
 
