@@ -2,6 +2,7 @@ import "./Home.css"
 
 const Home = () => {
   return <main className="Home-body">
+    {/* INICIO APARTADO HERO */}
     <section className="Home-section-photo">
       <img className="Home-img" src="/imgs/cabecera.png" alt="La [2] Silla" title="La [2] Silla" />
     </section>
@@ -10,6 +11,8 @@ const Home = () => {
       <a href="/Reservas" target="_blank" title="Reserva tu cita" className="Home-link">RESERVA TU CITA</a>
       <p className="Home-text">PORT SAPLAYA<br />[ VALENCIA ]</p>
     </section>
+    {/* FINAL APARTADO HERO */}
+
     {/* INICIO APARTADO GALERÍA */}
     <section class="Nosotros-body" id="galeria">
       ...
@@ -72,7 +75,6 @@ const Home = () => {
           <img src="/imgs/img-center.png" alt="Imagen barbería y peluquería" title="Imagen barbería y peluquería" />
         </div>
 
-
         {/* <!-- Texto de la derecha--> */}
         <div class="Prices-column">
           <h3>CORTES AVANZADOS</h3>
@@ -83,9 +85,7 @@ const Home = () => {
           <a href="/reservas" class="Prices-button" title="Reserva tu cita">RESERVA TU CITA</a>
         </div>
 
-
       </div>
-
 
     </section>
     {/* FINAL APARTADO PRECIOS */}
